@@ -1,0 +1,13 @@
+"STARTUP.obj",
+"main.obj",
+".\74H595.obj",
+".\TimerMain.obj",
+".\DisPlay.obj",
+".\LEDDisPlay.obj",
+".\DigitronDisPlay.obj",
+".\KeyScan.obj",
+".\Tetris.obj",
+".\Buzzer.obj" 
+TO "Tetris_HC" 
+RAMSIZE(256) 
+OVERLAY( ?PR?RUNTIMERCALLBACK?TIMERMAIN!* )
